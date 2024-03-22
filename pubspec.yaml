@@ -1,5 +1,5 @@
-name: wifi_scanner
-description: Fork of wifi hunter. A flutter package to hunt down info from all WiFi APs around you.
+name: wifi_hunter
+description: A flutter package to hunt down info from all WiFi APs around you.
 version: 1.1.1+2
 homepage: https://github.com/RyuChk/wifi_scanner
 repository: https://github.com/RyuChk/wifi_scanner.git
@@ -21,5 +21,5 @@ flutter:
   plugin:
     platforms:
       android:
-        package: RyuChk.wifi_scanner
-        pluginClass: WiFiScannerPlugin
+        package: klydra.wifi_hunter
+        pluginClass: WiFiHunterPlugin
